@@ -1,4 +1,4 @@
-# UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon
+erti# UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon
 
 Avalon Agency adalah perusahaan yang bergerak dalam bidang Digital Marketing Strategy dan Konsultan IT.
 Perusahaan ini menyediakan berbagai kebutuhan pelayanan klien yang memiliki permasalahan mengenai pemasaran
@@ -18,4 +18,33 @@ melakukan pembuatan design antarmuka website menggunakan aplikasi figma. berikut
 akan digunakan warna gelap sebagai warna utama. https://www.figma.com/file/tVwnC2hWeXEyuGWdJKcoou/Avalon-Design?type=design&node-id=1%3A215&mode=design&t=0BI51cgY6ue2MsWz-1. Penggunaan warna terang akhirnya digunakan dengan mempertimbangkan calon pengguna yang
 nantinya miliki umur yang bervariasi. hal ini diharapkan dapat membantu orang yang memiliki keterbatasan umur agar dapat
 tetap membaca dengan nyaman.
+
+Berikut ini adalah dokumentasi penjelasan mengenai implementasi kriteria penilaian yang telah dituangkan kedalam
+website yang saya buat:
+1. Desain rapi mengikuti kaidah atau prinsip desain
+<img width="976" alt="Screen Shot 2023-06-22 at 13 42 12" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/948a308c-b316-4492-b3f8-4e642e7628c5">
+Seperti yang sebelumnya sudah saya singgung, penggunaan warna putih sebagai backround tersebut sesuai dengan prisip
+desain yang harus desesuaikan dengan penggunanya. Hierarki desain yang dibuat juga telah disesuaikan dengan urutan
+yang disesuaikan dengan arah fokus mata, sehingga nantinya dapat mempermudah pembaca dalam membaca isi website. Selain itu,
+penggunaan aset, font, dan warna pada website tersebut telah disesuaikan dengan mengimplementasikan prinsip-prinsip desain
+seperti perbedaan kontras yang cukup, serta pengambilan warna yang sesuai dengan konsep warna. Alasan pembuatan website mendahulukan
+desain arsitektur UX menggunakan figma terlebih dahulu juga dimaksudkan untuk dapat mengimplementasikan materi mengenai desain yang
+interaktif dan informatif untuk pengguna
+
+2. Website responsive, dapat diakses melalui device: Mobile, Tablet dan Laptop.
+Menggunakan TailwindCSS dan Flexbox, website avalon telah disesuaikan menggunakan konsep website responsif dan diterapkan dalam seluruh
+kode yang ada. salah satu contoh implementasi kode tersebut dapat dilihat dalam kode dibawah ini:
+<img width="385" alt="Screen Shot 2023-06-22 at 13 51 16" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/44fb0f0c-c365-471e-9387-1c9bd39a2df5">
+dalam kode tersebut, dapat dilihat bahwa konsep responsifitas website telah diterapkan. Output yang dihasilkan nantinya dapat dilihat dalam dokumentasi responsifitas dibawah ini:
+-website
+<img width="872" alt="Screen Shot 2023-06-22 at 13 53 14" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/78244ad7-247a-4553-aaf3-45d78bbbbd22">
+-tablet
+<img width="536" alt="Screen Shot 2023-06-22 at 13 54 13" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/d1a45d0a-39fc-4b2c-93b3-c98c2a16cde6">
+-mobile
+<img width="427" alt="Screen Shot 2023-06-22 at 13 53 49" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/b7d2e3bb-360a-4d3e-b7f6-43b78acda42f">
+
+3. Direct feedback ke pengguna website,
+
+4. Konten dinamis dari database.
+
 

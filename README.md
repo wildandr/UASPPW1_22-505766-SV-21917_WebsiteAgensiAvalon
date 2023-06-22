@@ -49,6 +49,12 @@ menjadi komunikasi secara tidak langsung kepada pengguna, sehingga nantinya dapa
 Dalam website avalon, terdapat beberapa direct feedback ke pengguna yang diharapkan dapat membantu pengguna dalam memahami hal yang harus dilakukannya.
 Salah satu implementasinya terdapat pada saat kita melakukan pengisian email pada form yang diberikan.
 <img width="331" alt="Screen Shot 2023-06-22 at 14 03 11" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/5dd85645-b622-4f23-a80f-8a927130f540">
+dengan adanya penanda border berwarna merah tersebut, harapannya dapat menjadi penanda secara langsung kepada pengguna jika format data yang ia masukan
+belum tepat. Selain itu, terdapat direct feedback lain yang berupa konfirmasi setelah melakukan mengisian data pada website. hal tersebut nantinya dapat
+membantu pengguna mengecek apakah formulir yang diisikannya sudah benar atau masih ada yang perlu dibenahi untuk nantinya dikirim ke database. 
+Dokumentasi direct feedback berupa konfirmasi pada halaman website:
+<img width="682" alt="Screen Shot 2023-06-22 at 14 04 46" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/e9699d17-048a-4b12-859c-2d29aec733d4">
+
 
 5. Konten dinamis dari database.
 

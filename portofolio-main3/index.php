@@ -1,3 +1,7 @@
+<?php
+require 'koneksi.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
   <head>
@@ -240,10 +244,31 @@
       </div>
     </section>
     <script>
-      function notif() {
-        alert("Dalam proses pengembangan :)");
+  function notif() {
+    var nama = document.getElementById("nama").value;
+    var email = document.getElementById("email").value;
+    var pesan = document.getElementById("pesan").value;
+
+    // Kirim formulir ke proses_formulir.php
+    var xhr = new XMLHttpRequest();
+    var url = "proses_formulir.php";
+    var params = "nama=" + encodeURIComponent(nama) + "&email=" + encodeURIComponent(email) + "&pesan=" + encodeURIComponent(pesan);
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        // Tampilkan pesan atau respons dari proses_formulir.php
+        alert(xhr.responseText);
       }
-    </script>
+    };
+
+    xhr.send(params);
+  }
+</script>
+
+
     <!-- Hubungi END -->
     <!-- footer start -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

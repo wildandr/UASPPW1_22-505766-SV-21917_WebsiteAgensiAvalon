@@ -73,7 +73,7 @@
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
-            <a href="#home" class="font-bold text-2xl block py-6 uppercase bg-clip-text text-transparent bg-gradient-to-r from-primary to-violet-500">Avalon</a>
+            <a href="index.php" class="font-bold text-2xl block py-6 uppercase bg-clip-text text-transparent bg-gradient-to-r from-primary to-violet-500">Avalon</a>
           </div>
           <div class="flex items-center px-4">
             <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -84,19 +84,19 @@
             <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
               <ul class="block lg:flex">
                 <li class="group">
-                  <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                  <a href="index.php" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
                 </li>
                 <li class="group">
-                  <a href="#tentang" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                  <a href="index.php/#tentang" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
                 </li>
                 <li class="group">
-                  <a href="#galeri" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Project</a>
+                  <a href="index.php/#galeri" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Project</a>
                 </li>
                 <li class="group">
-                  <a href="#skill" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                  <a href="index.php/#skill" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
                 </li>
                 <li class="group">
-                  <a href="#proyek" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Proyek</a>
+                  <a href="#proyek" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Plan</a>
                 </li>
                 <!-- <li class="group">
                   <a href="#hubungi" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Hubungi</a>
@@ -150,10 +150,30 @@
       </div>
     </section>
     <script>
-      function notif() {
-    alert("apakah anda yakin dengan informasi yang anda masukkan?");
+  function notif() {
+    var nama = document.getElementById("nama").value;
+    var email = document.getElementById("email").value;
+    var pesan = document.getElementById("pesan").value;
+
+    // Kirim formulir ke proses_formulir.php
+    var xhr = new XMLHttpRequest();
+    var url = "proses_formulir.php";
+    var params = "nama=" + encodeURIComponent(nama) + "&email=" + encodeURIComponent(email) + "&pesan=" + encodeURIComponent(pesan);
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        // Tampilkan pesan atau respons dari proses_formulir.php
+        alert(xhr.responseText);
       }
-    </script>
+    };
+
+    xhr.send(params);
+  }
+</script>
+
     <!-- Hubungi END -->
     <!-- footer start -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -187,19 +207,19 @@
             <h3 class="font-semibold text-slate-200 mb-5">Tautan</h3>
             <ul class="text-slate-300">
               <li>
-                <a href="#home" class="inline-block text-base hover:text-primary">Beranda</a>
+                <a href="index.php" class="inline-block text-base hover:text-primary">Beranda</a>
               </li>
               <li>
-                <a href="#tentang" class="inline-block text-base hover:text-primary">Tentang Saya</a>
+                <a href="index.php/#tentang" class="inline-block text-base hover:text-primary">Tentang Saya</a>
               </li>
               <li>
-                <a href="#galeri" class="inline-block text-base hover:text-primary">Galeri</a>
+                <a href="index.php/#galeri" class="inline-block text-base hover:text-primary">Galeri</a>
               </li>
               <li>
-                <a href="#skill" class="inline-block text-base hover:text-primary">Kemampuan</a>
+                <a href="index.php/#skill" class="inline-block text-base hover:text-primary">Kemampuan</a>
               </li>
               <li>
-                <a href="#proyek" class="inline-block text-base hover:text-primary">Proyek</a>
+                <a href="plan.php" class="inline-block text-base hover:text-primary">Proyek</a>
               </li>
               <li>
                 <a href="#hubungi" class="inline-block text-base hover:text-primary">Hubungi</a>

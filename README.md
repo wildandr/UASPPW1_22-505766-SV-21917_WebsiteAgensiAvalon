@@ -44,7 +44,12 @@ dalam kode tersebut, dapat dilihat bahwa konsep responsifitas website telah dite
 <img width="427" alt="Screen Shot 2023-06-22 at 13 53 49" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/b7d2e3bb-360a-4d3e-b7f6-43b78acda42f">
 
 3. Direct feedback ke pengguna website,
+Direct Feedback  ke pengguna website merupakan salah satu hal penting yang sebaiknya terdapat dalam website. Hal tersebut nentinya akan
+menjadi komunikasi secara tidak langsung kepada pengguna, sehingga nantinya dapat menjadi interaksi yang baik antara website dan pengguna
+Dalam website avalon, terdapat beberapa direct feedback ke pengguna yang diharapkan dapat membantu pengguna dalam memahami hal yang harus dilakukannya.
+Salah satu implementasinya terdapat pada saat kita melakukan pengisian email pada form yang diberikan.
+<img width="331" alt="Screen Shot 2023-06-22 at 14 03 11" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/5dd85645-b622-4f23-a80f-8a927130f540">
 
-4. Konten dinamis dari database.
+5. Konten dinamis dari database.
 
 

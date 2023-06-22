@@ -56,6 +56,22 @@ Dokumentasi direct feedback berupa konfirmasi pada halaman website:
 <img width="682" alt="Screen Shot 2023-06-22 at 14 04 46" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/e9699d17-048a-4b12-859c-2d29aec733d4">
 
 
-5. Konten dinamis dari database.
+4. Konten dinamis dari database.
+untuk membuat konten dinamis, saya menggunakan xampp untuk menghubungkan website yang telah saya buat ke database 
+berikut adalah kode yang telah saya cantumkan untuk menghubungkan koneksi:
+<img width="763" alt="Screen Shot 2023-06-22 at 15 30 11" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/1ceae8da-60e6-495c-a58e-b1ceff57a861">
+selain itu, saya juga telah membuat tabel pada mysql yang nantinya akan menyimpan data formulir yang telah dikirimkan oleh pengguna.
+script tersebut berisi fungsi yang saya sertakan dalam kode dan berikut ini adalah dokumentasinya:
+<img width="977" alt="Screen Shot 2023-06-22 at 15 26 28" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/56bd89d5-8f22-49b4-9ad6-9ac87c52f435">
+selanjutnya, saat nantinya tombol kirim di klik, maka data yang ada dalam formulir akan dikirimkan ke tabel pada database. berikut ini adalah tampilan dokumentasi database yang
+telah di insertkan"
+<img width="702" alt="Screen Shot 2023-06-22 at 15 33 39" src="https://github.com/wildandr/UASPPW1_22-505766-SV-21917_WebsiteAgensiAvalon/assets/125935800/a6fca365-0a2e-4d3c-8435-f119a3f0d07a">
+
+
+demikian dokumentasi pembuatan website avalon yang telah merepresentasikan materi-materi pembelajaran yang telah diajarkan sebelumnya. Harapannya, untuk kedepannya nanti
+saya dapat lebih banyak melakukan praktik secara mandiri sehingga nantinya dapat menguasai pemrograman web secara keseluruhan. serta mengimplementasikannya dalam
+melakukan penyelesaian masalah di masyarakat.
+
+
 
 
